@@ -1,0 +1,19 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "test mantis\u001b[D",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "chrome": "node chrome.js"
+  },
+  "keywords": [
+    "selenium"
+  ],
+  "author": "long",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "xlsx": "^0.16.9"
+  }
+}

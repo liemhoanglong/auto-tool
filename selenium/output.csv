@@ -1,0 +1,14 @@
+Input,Expected result,Actual result,Status
+a,Inserted successful :),Inserted successful :),Passed
+a,This stall already exists :(,Inserted successful :),Failed
+ ,You forget some fields :(,Inserted successful :),Failed
+á,Inserted successful :),Inserted successful :),Passed
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,Inserted successful :),Inserted successful :),Passed
+a  a,Inserted successful :),Inserted successful :),Passed
+ a,Inserted successful :),Inserted successful :),Passed
+a ,Inserted successful :),Inserted successful :),Passed
+Abc,Inserted successful :),Inserted successful :),Passed
+,You forget some fields :(,You forget some fields :(,Passed
+(^_^),Inserted successful :),Inserted successful :),Passed
+105; DROP TABLE test,Inserted successful :),Inserted successful :),Passed
+<li>Does the field accepts HTML characters?</li>,Inserted successful :),Inserted successful :),Passed
